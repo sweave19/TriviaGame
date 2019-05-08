@@ -1,0 +1,102 @@
+body {
+	background-color: blue;
+}
+
+#triviaTitle {
+	font-size: 50px;
+	padding-top: 50px;
+	padding-bottom:20px;
+	margin-left: auto;
+    margin-right: auto;
+    color:#faf7ed;
+    letter-spacing: 8px;
+	font-family: 'Dosis', sans-serif;
+	font-weight: bold;
+}
+
+div.jumbotron.text-center#startGame {
+	background-color: rgba(0, 0, 0, 0.01);
+
+}
+
+	#startBtn {
+		padding:12px 40px 12px 40px;
+		font-size: 25px;
+		background-color: yellow;
+		border-color: #000;
+		color: #111;
+		font-family: 'Dosis', sans-serif;
+		letter-spacing: 4px;
+	}
+		#startBtn:hover {
+			background-color: red;
+			color: #def;
+		}
+
+div#gameArea.jumbotron.text-center {
+    background-color: #000;
+}
+
+img.gifImg {
+	width:25%;
+	height:auto;
+}
+
+div#Qs.container {
+	font-family: 'Dosis', sans-serif;
+}
+	div#time {
+		font-size: 25px;
+		color: #def;
+	}
+	div.question {
+		color:#3e11b9;
+		font-size: 22px;
+	}
+
+	div.thisChoice {
+		font-size: 18px;
+		color: #def;
+		line-height: 50px;
+	}
+		div.thisChoice:hover {
+			color: rgb(247, 247, 112);
+		}
+div#Ans.container {
+	font-family: 'Dosis', sans-serif;
+}
+	div#text, div#correctAnswer {
+		color: #edd899;
+		font-size: 25px;
+	}
+	div#text {
+		color: rgb(247, 247, 112);
+		font-size: 25px;
+	}
+	div.gifCap {
+		color: rgb(247, 247, 112);
+		font-size: 22px;
+	}
+
+div.container#Res {
+	color: lightblue;
+	font-size: 20px;
+	font-family: 'Dosis', sans-serif;
+}
+	div#resultText {
+		color: #eb8b2b;
+	}
+	button#startOverBtn {
+		padding:12px 40px 12px 40px;
+		font-size: 18px;
+		background-color: #8f3625;
+		border-color: #000;
+		color: #def;
+		font-family: 'Dosis', sans-serif;
+		letter-spacing: 4px;
+	}
+		button#startOverBtn:hover {
+			background-color: #e2c55f;
+			color: #111;
+			cursor: pointer;
+		}
